@@ -1,5 +1,6 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize * */
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,900");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -190,10 +191,11 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #0d1218 url("../img/ep_naturalblack.png");
+  background: #ffffff;
   font-size: 14px;
   line-height: 1.6;
   font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
   color: black;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
@@ -268,7 +270,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 900;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07); }
 
@@ -312,7 +314,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin: 0 0 20px 0;
   font-weight: 400;
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif; }
 
 em {
   font-style: italic; }
@@ -345,10 +348,7 @@ hr {
   left: 0; }
 
 body {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: 'Open Sans', sans-serif;
   background: red; }
 
 #page-home {
