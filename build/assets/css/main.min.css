@@ -352,6 +352,105 @@ nav li.brand {
   nav li.brand a {
     padding: 0; }
 
+#the-company {
+  background: #ffff; }
+  #the-company .top-header h2 {
+    color: #808285;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 35px; }
+  #the-company .cta {
+    padding-top: 250px;
+    text-align: center; }
+  #the-company .our-difference {
+    display: flex; }
+    #the-company .our-difference .our-difference__image {
+      flex: 70%;
+      position: relative; }
+      #the-company .our-difference .our-difference__image .our-difference__image--mosaic {
+        position: absolute;
+        top: 250px;
+        right: 120px;
+        width: 281px;
+        height: 299px;
+        background-image: url("../img/why-we-different-b.png");
+        background-color: #f26522;
+        background-blend-mode: multiply;
+        z-index: 1; }
+    #the-company .our-difference .our-difference__content {
+      flex: 30%;
+      margin-top: 75px; }
+      #the-company .our-difference .our-difference__content header {
+        position: relative; }
+        #the-company .our-difference .our-difference__content header p {
+          text-transform: uppercase;
+          color: #808285;
+          font-weight: bold; }
+        #the-company .our-difference .our-difference__content header:before {
+          content: "";
+          position: absolute;
+          right: 370px;
+          top: 10px;
+          display: block;
+          z-index: 2;
+          width: 250px;
+          height: 2px;
+          background-color: #f26522; }
+        #the-company .our-difference .our-difference__content header h3 {
+          text-transform: uppercase;
+          color: #f26522;
+          font-weight: bold;
+          font-size: 2em; }
+      #the-company .our-difference .our-difference__content p {
+        color: #808285;
+        font-size: 14px; }
+  #the-company .our-approach {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 250px; }
+    #the-company .our-approach .our-approach__image {
+      flex: 70%;
+      position: relative; }
+      #the-company .our-approach .our-approach__image .our-approach__image--mosaic {
+        position: absolute;
+        top: 310px;
+        right: 300px;
+        z-index: 1;
+        width: 361px;
+        height: 241px;
+        background-image: url("../img/our-approach-b.png");
+        background-color: #f26522;
+        background-blend-mode: multiply; }
+    #the-company .our-approach .our-approach__content {
+      flex: 30%;
+      margin-top: 75px; }
+      #the-company .our-approach .our-approach__content header {
+        position: relative; }
+        #the-company .our-approach .our-approach__content header p {
+          text-transform: uppercase;
+          color: #808285;
+          font-weight: bold; }
+        #the-company .our-approach .our-approach__content header:before {
+          content: "";
+          position: absolute;
+          left: 170px;
+          top: 10px;
+          display: block;
+          z-index: 2;
+          width: 250px;
+          height: 2px;
+          background-color: #f26522; }
+        #the-company .our-approach .our-approach__content header h3 {
+          text-transform: uppercase;
+          color: #f26522;
+          font-weight: bold;
+          font-size: 2em; }
+      #the-company .our-approach .our-approach__content p {
+        color: #808285;
+        font-size: 14px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
