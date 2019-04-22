@@ -1,11 +1,28 @@
 body
   font-family: 'Open Sans', sans-serif
-  background: red
 
+#header
+  background: url("../img/header-bg.png") no-repeat
+  background-size: cover
+  height: 100vh
+  header
+    h1
+      color: white
+      text-transform: uppercase
+      margin-top: 100px
 
-#page-home
-  margin: 20px
-  display: flex
+    h1::after
+      content: ""
+      width: 150px
+      background-color: white
+      height: 3px
+      display: block
+      margin-top: 40px;
+    p 
+      width: 600px
+      font-weight: bold
+      font-size: 20px
+    color: white!important
 
 
 .wrapper-starter
@@ -15,5 +32,4 @@ body
   border-radius: 2px
   box-shadow: 0 2px 20px rgba(0,0,0, 0.7)
   text-align: left
-
 
