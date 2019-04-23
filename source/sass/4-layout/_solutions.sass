@@ -1,0 +1,40 @@
+// Solutions Sections
+
+#solutions
+    background: $successBgColor
+
+    .top-header
+        h2
+            color: $primaryColor
+            text-transform: uppercase
+            font-size: 2.5em
+            font-weight: bold
+            margin-bottom: 35px
+    
+    .grid-wrapper
+        display: grid
+        grid-gap: 10px
+            grid-template-columns: 30% 30% 30%
+
+        .gr-image
+            grid-column: 1
+            grid-row: 1 / 3
+
+            img
+                width: 100%
+        
+        .case-content
+            grid-column: 2 / 3
+            grid-row: 1
+            background-color: $accentColor
+            color: white
+
+        .stat-efficiency
+            grid-column: 2 / 3
+            background-color: $accentColor
+            color: white
+
+        .stat-storage
+            grid-column: 3 / 3
+            background-color: $accentColor
+            color: white

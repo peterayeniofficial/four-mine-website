@@ -572,6 +572,37 @@ nav li.brand {
         color: #808285;
         font-size: 14px; }
 
+#solutions {
+  background: #f1f2f2; }
+  #solutions .top-header h2 {
+    color: #808285;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 35px; }
+  #solutions .grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+      grid-gap-grid-template-columns: 30% 30% 30%; }
+    #solutions .grid-wrapper .gr-image {
+      grid-column: 1;
+      grid-row: 1 / 3; }
+      #solutions .grid-wrapper .gr-image img {
+        width: 100%; }
+    #solutions .grid-wrapper .case-content {
+      grid-column: 2 / 3;
+      grid-row: 1;
+      background-color: #f26522;
+      color: white; }
+    #solutions .grid-wrapper .stat-efficiency {
+      grid-column: 2 / 3;
+      background-color: #f26522;
+      color: white; }
+    #solutions .grid-wrapper .stat-storage {
+      grid-column: 3 / 3;
+      background-color: #f26522;
+      color: white; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
