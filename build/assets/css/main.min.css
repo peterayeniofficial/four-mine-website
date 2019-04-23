@@ -684,6 +684,55 @@ nav li.brand {
         margin-top: 0;
         line-height: 1em; }
 
+#blog {
+  background: white; }
+  #blog .cta {
+    padding-top: 80px;
+    text-align: center;
+    margin-bottom: 80px; }
+  #blog .blog-header h2 {
+    color: #808285;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 40px; }
+  #blog .main-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 'one two three'; }
+    #blog .main-grid .blog-one {
+      grid-area: one;
+      width: 354px;
+      height: 361px;
+      background-image: url("../img/blog-bg-img-3.png");
+      padding: 20px; }
+    #blog .main-grid .blog-two {
+      grid-area: two;
+      width: 354px;
+      height: 361px;
+      background-image: url("../img/blog-bg-img-2.png");
+      padding: 20px; }
+    #blog .main-grid .blog-three {
+      grid-area: three;
+      width: 354px;
+      height: 361px;
+      background-image: url("../img/blog-bg-img-1.png");
+      padding: 20px; }
+    #blog .main-grid header {
+      margin-top: 20px;
+      color: white; }
+      #blog .main-grid header p {
+        font-size: 14px;
+        margin-bottom: 0;
+        color: white;
+        margin-top: 200px; }
+      #blog .main-grid header h3 {
+        font-size: 2.5em;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        margin-top: 0;
+        line-height: 1em; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
