@@ -574,6 +574,10 @@ nav li.brand {
 
 #solutions {
   background: #f1f2f2; }
+  #solutions .cta {
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 30px; }
   #solutions .top-header h2 {
     color: #808285;
     text-transform: uppercase;
@@ -583,25 +587,64 @@ nav li.brand {
   #solutions .grid-wrapper {
     display: grid;
     grid-gap: 10px;
-      grid-gap-grid-template-columns: 30% 30% 30%; }
+    padding: 10px;
+    grid-template-areas: 'image image image case case' 'image image image efficiency storage'; }
     #solutions .grid-wrapper .gr-image {
-      grid-column: 1;
-      grid-row: 1 / 3; }
+      grid-area: image;
+      background: url("../img/success.png");
+      width: 500px; }
       #solutions .grid-wrapper .gr-image img {
         width: 100%; }
     #solutions .grid-wrapper .case-content {
-      grid-column: 2 / 3;
-      grid-row: 1;
+      grid-area: case;
       background-color: #f26522;
-      color: white; }
+      color: white;
+      padding: 10px 15px; }
+      #solutions .grid-wrapper .case-content header h3 {
+        color: white;
+        text-transform: capitalize;
+        font-weight: bold;
+        margin-bottom: 5px; }
+      #solutions .grid-wrapper .case-content header h3::after {
+        content: "";
+        width: 70px;
+        background-color: white;
+        height: 2px;
+        display: block;
+        margin-top: 10px; }
+      #solutions .grid-wrapper .case-content header p {
+        font-size: 12px;
+        color: white !important; }
     #solutions .grid-wrapper .stat-efficiency {
-      grid-column: 2 / 3;
+      grid-area: efficiency;
       background-color: #f26522;
-      color: white; }
+      color: white;
+      text-align: center;
+      padding: 40px 5px; }
+      #solutions .grid-wrapper .stat-efficiency .case-stats h3 {
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+        margin-bottom: 0;
+        margin-top: 10px; }
+      #solutions .grid-wrapper .stat-efficiency .case-stats p {
+        margin-bottom: 0;
+        font-size: 12px; }
     #solutions .grid-wrapper .stat-storage {
-      grid-column: 3 / 3;
+      grid-area: storage;
       background-color: #f26522;
-      color: white; }
+      color: white;
+      text-align: center;
+      padding: 40px 5px; }
+      #solutions .grid-wrapper .stat-storage .case-stats h3 {
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+        margin-bottom: 0;
+        margin-top: 10px; }
+      #solutions .grid-wrapper .stat-storage .case-stats p {
+        margin-bottom: 0;
+        font-size: 12px; }
 
 .flex-video {
   height: 0;
