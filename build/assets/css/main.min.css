@@ -451,6 +451,127 @@ nav li.brand {
         color: #808285;
         font-size: 14px; }
 
+#first-breaker {
+  background-image: url("../img/breaker-bg.png");
+  background-size: cover;
+  height: 668px;
+  text-align: center;
+  margin-top: 40px; }
+  #first-breaker .wrapper header {
+    margin-top: 250px;
+    color: white; }
+    #first-breaker .wrapper header p {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 1.8em;
+      margin-bottom: 0; }
+    #first-breaker .wrapper header h3 {
+      font-size: 3em;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: white;
+      margin-top: 0;
+      line-height: 1em; }
+
+#team {
+  background: #ffff; }
+  #team .top-header h2 {
+    color: #808285;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 35px; }
+  #team .cta {
+    padding-top: 250px;
+    text-align: center; }
+  #team .true-mentors {
+    display: flex; }
+    #team .true-mentors .true-mentors__image {
+      flex: 70%;
+      position: relative; }
+      #team .true-mentors .true-mentors__image .true-mentors__image--mosaic {
+        position: absolute;
+        top: 250px;
+        right: 120px;
+        width: 281px;
+        height: 299px;
+        background-image: url("../img/mentors-b.png");
+        background-color: #f26522;
+        background-blend-mode: multiply;
+        z-index: 1; }
+    #team .true-mentors .true-mentors__content {
+      flex: 30%;
+      margin-top: 75px; }
+      #team .true-mentors .true-mentors__content header {
+        position: relative; }
+        #team .true-mentors .true-mentors__content header p {
+          text-transform: uppercase;
+          color: #808285;
+          font-weight: bold; }
+        #team .true-mentors .true-mentors__content header:before {
+          content: "";
+          position: absolute;
+          right: 370px;
+          top: 10px;
+          display: block;
+          z-index: 2;
+          width: 250px;
+          height: 2px;
+          background-color: #f26522; }
+        #team .true-mentors .true-mentors__content header h3 {
+          text-transform: uppercase;
+          color: #f26522;
+          font-weight: bold;
+          font-size: 2em; }
+      #team .true-mentors .true-mentors__content p {
+        color: #808285;
+        font-size: 14px; }
+  #team .our-experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 250px; }
+    #team .our-experience .our-experience__image {
+      flex: 70%;
+      position: relative; }
+      #team .our-experience .our-experience__image .our-experience__image--mosaic {
+        position: absolute;
+        top: 310px;
+        right: 300px;
+        z-index: 1;
+        width: 361px;
+        height: 241px;
+        background-image: url("../img/our-experience-b.png");
+        background-color: #f26522;
+        background-blend-mode: multiply; }
+    #team .our-experience .our-experience__content {
+      flex: 30%;
+      margin-top: 75px; }
+      #team .our-experience .our-experience__content header {
+        position: relative; }
+        #team .our-experience .our-experience__content header p {
+          text-transform: uppercase;
+          color: #808285;
+          font-weight: bold; }
+        #team .our-experience .our-experience__content header:before {
+          content: "";
+          position: absolute;
+          left: 170px;
+          top: 10px;
+          display: block;
+          z-index: 2;
+          width: 250px;
+          height: 2px;
+          background-color: #f26522; }
+        #team .our-experience .our-experience__content header h3 {
+          text-transform: uppercase;
+          color: #f26522;
+          font-weight: bold;
+          font-size: 2em; }
+      #team .our-experience .our-experience__content p {
+        color: #808285;
+        font-size: 14px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
