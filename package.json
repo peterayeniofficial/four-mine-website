@@ -1,12 +1,13 @@
 {
-    "name": "iamjesseshow-starter-project",
+    "name": "four-mine",
     "version": "1.0.0",
-    "description": "Starter Project",
+    "description": "Four mine",
     "main": "index.html",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "gulp"
     },
-    "author": "Jesse Showalter",
+    "author": "Peter Ayeni",
     "license": "ISC",
     "devDependencies": {
         "browser-sync": "^2.26.3",
