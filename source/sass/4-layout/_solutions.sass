@@ -1,0 +1,91 @@
+// Solutions Sections
+
+#solutions
+    background: $successBgColor
+    margin-top: 80px
+
+    .cta
+        padding-top: 80px
+        text-align: center
+        margin-bottom: 80px
+
+    .top-header
+        h2
+            color: $primaryColor
+            text-transform: uppercase
+            font-size: 2.5em
+            font-weight: bold
+            margin-bottom: 35px
+    
+    .grid-wrapper
+        display: grid
+        grid-gap: 10px
+        padding: 10px
+        grid-template-areas: 'image image image case case' 'image image image efficiency storage'
+
+        .gr-image
+            grid-area: image
+            background: url("../img/success.png")
+            width: 500px
+
+            img
+                width: 100%
+        
+        .case-content
+            grid-area: case
+            background-color: $accentColor
+            color: white
+            padding: 10px 15px
+            header
+                h3
+                    color: white
+                    text-transform: capitalize
+                    font-weight: bold
+                    margin-bottom: 5px
+
+                h3::after
+                    content: ""
+                    width: 70px
+                    background-color: white
+                    height: 2px
+                    display: block
+                    margin-top: 10px;
+                p
+                    font-size: 12px
+                    color: white!important
+
+        .stat-efficiency
+            grid-area: efficiency
+            background-color: $accentColor
+            color: white
+            text-align: center
+            padding: 40px 5px
+            .case-stats
+                h3
+                    color: white
+                    font-size: 45px
+                    font-weight: bold
+                    margin-bottom: 0
+                    margin-top: 10px
+                p 
+                    margin-bottom: 0
+                    font-size: 12px
+                    
+        .stat-storage
+            grid-area: storage
+            background-color: $accentColor
+            color: white
+            text-align: center
+            padding: 40px 5px
+            .case-stats
+                h3
+                    color: white
+                    font-size: 45px
+                    font-weight: bold
+                    margin-bottom: 0
+                    margin-top: 10px
+                p
+                    margin-bottom: 0
+                    font-size: 12px
+                    
+                    
