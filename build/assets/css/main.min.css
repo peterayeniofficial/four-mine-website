@@ -210,7 +210,6 @@ section {
 
 .button,
 button,
-input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
@@ -232,9 +231,6 @@ input[type="button"] {
   button:hover,
   button:active,
   button:focus,
-  input[type="submit"]:hover,
-  input[type="submit"]:active,
-  input[type="submit"]:focus,
   input[type="reset"]:hover,
   input[type="reset"]:active,
   input[type="reset"]:focus,
@@ -369,9 +365,11 @@ nav li.brand {
     padding-top: 250px;
     text-align: center; }
   #the-company .our-difference {
-    display: flex; }
+    display: flex;
+    width: 100%; }
     #the-company .our-difference .our-difference__image {
-      flex: 70%;
+      flex: 2;
+      width: 70%;
       position: relative; }
       #the-company .our-difference .our-difference__image .our-difference__image--mosaic {
         position: absolute;
@@ -384,8 +382,9 @@ nav li.brand {
         background-blend-mode: multiply;
         z-index: 1; }
     #the-company .our-difference .our-difference__content {
-      flex: 30%;
-      margin-top: 75px; }
+      flex: 1;
+      margin-top: 75px;
+      width: 30%; }
       #the-company .our-difference .our-difference__content header {
         position: relative; }
         #the-company .our-difference .our-difference__content header p {
@@ -416,8 +415,10 @@ nav li.brand {
     justify-content: space-between;
     padding-top: 250px; }
     #the-company .our-approach .our-approach__image {
-      flex: 70%;
+      flex: 2;
       position: relative; }
+      #the-company .our-approach .our-approach__image img {
+        margin-left: 200px; }
       #the-company .our-approach .our-approach__image .our-approach__image--mosaic {
         position: absolute;
         top: 310px;
@@ -429,7 +430,7 @@ nav li.brand {
         background-color: #f26522;
         background-blend-mode: multiply; }
     #the-company .our-approach .our-approach__content {
-      flex: 30%;
+      flex: 1;
       margin-top: 75px; }
       #the-company .our-approach .our-approach__content header {
         position: relative; }
@@ -492,7 +493,7 @@ nav li.brand {
   #team .true-mentors {
     display: flex; }
     #team .true-mentors .true-mentors__image {
-      flex: 70%;
+      flex: 2;
       position: relative; }
       #team .true-mentors .true-mentors__image .true-mentors__image--mosaic {
         position: absolute;
@@ -505,7 +506,7 @@ nav li.brand {
         background-blend-mode: multiply;
         z-index: 1; }
     #team .true-mentors .true-mentors__content {
-      flex: 30%;
+      flex: 1;
       margin-top: 75px; }
       #team .true-mentors .true-mentors__content header {
         position: relative; }
@@ -533,16 +534,19 @@ nav li.brand {
         font-size: 14px; }
   #team .our-experience {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding-top: 250px; }
+    padding-top: 250px;
+    width: 100%; }
     #team .our-experience .our-experience__image {
-      flex: 70%;
-      position: relative; }
+      flex: 2;
+      position: relative;
+      width: 70%; }
+      #team .our-experience .our-experience__image img {
+        margin-left: 200px; }
       #team .our-experience .our-experience__image .our-experience__image--mosaic {
         position: absolute;
         top: 310px;
-        right: 300px;
+        right: 200px;
         z-index: 1;
         width: 361px;
         height: 241px;
@@ -550,8 +554,9 @@ nav li.brand {
         background-color: #f26522;
         background-blend-mode: multiply; }
     #team .our-experience .our-experience__content {
-      flex: 30%;
-      margin-top: 75px; }
+      flex: 1;
+      margin-top: 75px;
+      width: 30%; }
       #team .our-experience .our-experience__content header {
         position: relative; }
         #team .our-experience .our-experience__content header p {
@@ -565,7 +570,7 @@ nav li.brand {
           top: 10px;
           display: block;
           z-index: 2;
-          width: 250px;
+          width: 475px;
           height: 2px;
           background-color: #f26522; }
         #team .our-experience .our-experience__content header h3 {
@@ -737,6 +742,85 @@ nav li.brand {
         color: white;
         margin-top: 0;
         line-height: 1em; }
+
+#contact {
+  background-image: url("../img/contact-bg.png");
+  height: 350px; }
+  #contact .wrapper {
+    display: flex;
+    flex-direction: row; }
+  #contact .cta--content {
+    flex: 2;
+    color: red; }
+    #contact .cta--content h2 {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 2.0em;
+      font-weight: bold;
+      width: 70%;
+      margin: 150px 0px; }
+  #contact .cta {
+    flex: 1;
+    margin: 150px auto; }
+    #contact .cta button {
+      background-color: transparent;
+      color: #fff;
+      border: 2px solid #fff; }
+
+footer {
+  background: white;
+  margin-top: 50px; }
+  footer .footer--copyright {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    footer .footer--copyright p {
+      color: #808285; }
+  footer .footer--grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto 200px 200px auto; }
+    footer .footer--grid ul {
+      color: #808285;
+      font-weight: bold;
+      margin-top: 0; }
+    footer .footer--grid .footer--address li {
+      list-style: none; }
+    footer .footer--grid span {
+      color: #f26522; }
+    footer .footer--grid .footer--addressS li {
+      list-style: none; }
+    footer .footer--grid .footer--newsletter input[type="submit"] {
+      display: inline-block;
+      border: none;
+      padding: 1rem 2rem;
+      margin: 0;
+      text-decoration: none;
+      background: #f26522;
+      color: #ffffff;
+      font-family: sans-serif;
+      font-size: 1rem;
+      line-height: 1;
+      cursor: pointer;
+      text-align: center;
+      transition: background 250ms ease-in-out, transform 150ms ease;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      position: relative;
+      font-weight: bold;
+      font-kerning: 5; }
+    footer .footer--grid .footer--newsletter input[type="email"] {
+      border: none;
+      padding: 1rem 2rem;
+      margin: 0;
+      text-decoration: none;
+      background: #f26522;
+      color: #ffffff;
+      font-family: sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: 1; }
+    footer .footer--grid .footer--newsletter label {
+      display: none; }
 
 .flex-video {
   height: 0;
